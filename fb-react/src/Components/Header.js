@@ -43,7 +43,7 @@ const Header = () => {
             </div>
                 <div className='header__right'>
                     <div className="header__info">
-                        <Avatar></Avatar>
+                        <Avatar src='my_avatar.jpg'></Avatar>
                         <h4>Neeraj </h4>
                     </div>
                     <IconButton>
