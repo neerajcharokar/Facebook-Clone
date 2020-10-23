@@ -15,17 +15,17 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header'>
-            <div className="header_left">
+            <div className="header__left">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook logo"></img>
             </div>
 
-            <div className="header_input">
+            <div className="header__input">
                 <SearchIcon></SearchIcon>
                 <input placeholder="Search Facebook" type='text'>
                 </input>
             </div>
-            <div className="header-center">
-                <div className="header__option header__option--active">
+            <div className="header__center">
+                <div className="header__option--active header__option ">
                     <HomeIcon fontSize='large'></HomeIcon>
                 </div>
                 <div className="header__option">
@@ -40,6 +40,7 @@ const Header = () => {
                 <div className="header__option">
                     <SupervisedUserCircleIcon fontSize='large'></SupervisedUserCircleIcon>
                 </div>
+            </div>
                 <div className='header__right'>
                     <div className="header__info">
                         <Avatar></Avatar>
@@ -58,7 +59,6 @@ const Header = () => {
                         <ExpandMoreIcon />
                     </IconButton>
                 </div>
-            </div>
         </div>
     )
 }
